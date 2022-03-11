@@ -21,14 +21,14 @@ const valid = () => {
     let anwser4 = parseInt(document.querySelector('.anwser4').value);
 
 tour++;
-if(anwser1===val1 && anwser2===val2 && anwser3===val3 && anwser4===val4 && tour<3){
+if(anwser1===val1 && anwser2===val2 && anwser3===val3 && anwser4===val4 && tour<10){
 
     let div_limite = document.createElement('div');
     div_limite.innerHTML = "Fin de jeux. Vous avez gagné au bout de" + tour + " tour(s) ";
     document.querySelector('.limite').appendChild(div_limite)
 
 }       
- else if(tour < 3){ 
+ else if(tour < 10){ 
     if (anwser1 === val1) {
         reponse1 = "1";
     } else {
@@ -91,7 +91,7 @@ if(anwser1===val1 && anwser2===val2 && anwser3===val3 && anwser4===val4 && tour<
     console.log(reponse1, reponse2, reponse3, reponse4);
 
     let div = document.createElement('div');
-    div.classList.add('reponse'+tour)
+    div.classList.add('reponses'+tour)
     div.innerHTML = anwser1 + " - " + anwser2 + " - " + anwser3 + " - " + anwser4 + 
         '<br />' +
         reponse1 + " - " + reponse2 + " - " + reponse3 + " - " + reponse4;
@@ -99,7 +99,7 @@ if(anwser1===val1 && anwser2===val2 && anwser3===val3 && anwser4===val4 && tour<
    
 } else{
     let div_limite = document.createElement('div');
-    div_limite.innerHTML = "Limite de tentative atteinte. Fin de jeux."
+    div_limite.innerHTML = "Vous n'aviez droit qu'à 10 essais. Limite des tentatives atteinte. Fin de jeux."
     document.querySelector('.limite').appendChild(div_limite)
     }
    
