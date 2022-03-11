@@ -8,11 +8,25 @@ h1{
     color: indigo;
     font-family: 'Times New Roman', Times, serif;
     font-size:large;
+    padding-top: 4%;
 }
 table
 {
-margin: auto;
+    margin: auto;
+    padding-top: 3%;
 }
+
+.limite{
+    border-style:ridge;
+    border-width: 3px;  
+    border-color: rgba(247, 247, 116, 0.822) ;
+}
+
+.reponse{
+    border-style:ridge;
+    border-width: 10%;   
+}
+
 td{
     border-collapse: collapse;
     border: 2px solid greenyellow;
