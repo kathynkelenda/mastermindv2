@@ -4,30 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mastermind v1</title>
+        <title>Mastermind version 2</title>
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <h1>MasterMind v1</h1>
+        <div id="container"> <h1>MasterMind version 2</h1>
 
-        <section>
-            <div class="form">
-                <input type="number" name="anwser1" class="anwser1" />
-                <input type="number" name="anwser2" class="anwser2" />
-                <input type="number" name="anwser3" class="anwser3" />
-                <input type="number" name="anwser4" class="anwser4" />
-                <input
-                    type="submit"
-                    name="send"
-                    value="Valider"
-                    onclick={valid()}
-                />
-            </div>
-            <div class="reponses">
+                
+                    <div class="form">
+                        <table>
+                            <tr>
+                            <td> <input type="number" name="anwser1" class="anwser1" /> </td> 
+                            <td> <input type="number" name="anwser2" class="anwser2" /> </td>
+                            <td> <input type="number" name="anwser3" class="anwser3" /> </td>
+                            <td> <input type="number" name="anwser4" class="anwser4" /> </td>
+                            <td class="valider"> <input type="submit"  name="send"  value="Valider"  onclick={valid()} /> </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="reponses">
 
-            </div>
-            <div class="limite"></div>
-        </section>
-        <script src="./js/main.js"></script>
+                    </div>
+                    <div class="limite"></div>
+               
+                <script src="./js/main.js"></script>
+        </div>
     </body>
 </html>
