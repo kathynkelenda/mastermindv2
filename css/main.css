@@ -17,14 +17,20 @@ table
 }
 
 .limite{
-    border-style:ridge;
-    border-width: 3px;  
+    border-style:ridge; 
     border-color: rgba(247, 247, 116, 0.822) ;
+    width:30%; 
+    height: auto; 
+    margin: auto;
 }
 
-.reponse{
-    border-style:ridge;
-    border-width: 10%;   
+.reponses{
+    border-style:ridge; 
+    border-color: rgba(94, 245, 120, 0.822) ;
+    width:45%; 
+    height: auto; 
+    margin: auto; 
+    text-align: center; 
 }
 
 td{
