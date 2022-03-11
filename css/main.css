@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+h1{
+    color: indigo;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+table
+{
+margin: auto;
+}
+td{
+    border-collapse: collapse;
+    border: 2px solid greenyellow;
+    
+}
+
+.valider{
+    border: 2px solid rgb(97, 25, 126);
+}
+#container{
+    text-align: center;
+}
+body{
+    background-color:rgb(233, 176, 233);
+}
